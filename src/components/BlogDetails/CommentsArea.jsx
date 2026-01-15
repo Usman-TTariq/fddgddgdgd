@@ -1,0 +1,80 @@
+import React from "react";
+import Image from 'next/image';
+import Link from 'next/link';
+
+
+
+
+
+const CommentsArea= () => {
+  return (
+    <div className="comment_area mb-70">
+      <h3 className="comment-title">Comments (3)</h3>
+
+      <ul className="comments_list unordered_list_block list-unstyled">
+
+        {/* COMMENT 1 */}
+        <li>
+          <div className="comment_item">
+            <div className="comment_author_thumbnail">
+              <Image src="/images/avatar/author-img02.png" alt="Avatar" width={500} height={500} />
+            </div>
+
+            <div className="comment_author_content">
+              <h4 className="comment_author_name">Ethan Reynolds</h4>
+              <div className="comment_time">November 24, 2025</div>
+              <p>“Their next-gen AI solutions helped us cut operational costs while improving accuracy. The integration with our existing systems was smooth and efficient.”</p>
+
+              <Link href="/blod-details" className="comment_reply_btn xb-border">
+                Reply
+              </Link>
+            </div>
+          </div>
+
+          {/* REPLY TO COMMENT 1 */}
+          <ul className="comments_list unordered_list_block list-unstyled">
+            <li>
+              <div className="comment_item">
+                <div className="comment_author_thumbnail">
+                  <Image src="/images/avatar/author-img03.png" alt="Avatar" width={500} height={500} />
+                </div>
+
+                <div className="comment_author_content">
+                  <h4 className="comment_author_name">Priya Ramirez</h4>
+                  <div className="comment_time">November 26, 2025</div>
+                  <p>“Their team took the time to understand our challenges and delivered tailored automation tools that truly elevated our business processes.”</p>
+
+                  <Link href="/blod-details" className="comment_reply_btn xb-border">
+                    Reply
+                  </Link>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+
+        {/* COMMENT 2 */}
+        <li>
+          <div className="comment_item">
+            <div className="comment_author_thumbnail">
+              <Image src="/images/avatar/author-img04.png" alt="Avatar" width={500} height={500} />
+            </div>
+
+            <div className="comment_author_content">
+              <h4 className="comment_author_name">Carter Vaughn</h4>
+              <div className="comment_time">November 28, 2025</div>
+              <p>“This agency’s automation tools scaled effortlessly with our growing business needs. Their expertise made the entire process hassle-free and rewarding.”</p>
+
+              <Link href="/blod-details" className="comment_reply_btn xb-border">
+                Reply
+              </Link>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  );
+};
+
+export default CommentsArea;
