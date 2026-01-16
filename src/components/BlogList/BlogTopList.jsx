@@ -4,10 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
 // IMAGES
-
-
-
-
+const blog1 = "/images/blog/img01.jpg";
+const blog2 = "/images/blog/img02.jpg";
+const blog3 = "/images/blog/img03.jpg";
+const blog4 = "/images/blog/img04.jpg";
 
 
 

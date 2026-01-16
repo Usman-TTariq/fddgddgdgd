@@ -23,7 +23,7 @@ const testimonials = [
       '“We saw a big boost in engagement and sales with their recommendation engine. It personalizes the shopping experience perfectly.”',
     name: "Riya Mehta",
     designation: "Manager - Trendico",
-    avatar: "",
+    avatar: "/images/t3.jpg",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const testimonials = [
       '“Their NLP tool saves us hours by extracting key info from large documents instantly. It’s fast, accurate, and a huge time-saver.”',
     name: "Miguel Torres",
     designation: "CEO & Funder - DocFlow",
-    avatar: "",
+    avatar: "/images/t2.jpg",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const testimonials = [
       '“Their automation solutions saved us countless hours. Tasks that took days are now completed in minutes. The ROI was almost immediate.”',
     name: "Sebastian Clark",
     designation: "Manager - SwiftLogix",
-    avatar: "",
+    avatar: "/images/t1.jpg",
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const testimonials = [
       '“The AI chatbot they developed has transformed our customer service. We now handle 70% of queries with higher customer satisfaction!”',
     name: "Priya Ramirez",
     designation: "CEO - BrightNest",
-    avatar: "",
+    avatar: "/images/t4.jpg",
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const testimonials = [
       '“We gained deep insights into customer behavior and performance. Their analytics made our decision-making sharper and more confident.”',
     name: "Sebastian Clark",
     designation: "Director - Finexa Capital",
-    avatar: "",
+    avatar: "/images/t5.jpg",
   },
   {
     id: 6,
@@ -73,18 +73,18 @@ const testimonials = [
       '“Their automation solutions saved us countless hours. Tasks that took days are now completed in minutes. The ROI was almost immediate.”',
     name: "Sebastian Clark",
     designation: "Manager - SwiftLogix",
-    avatar: "",
+    avatar: "/images/t1.jpg",
   },
 ];
 
 const TestimonialSection= () => {
-  useEffect(() => {
-    const bgEl = document.querySelector(".testimonial.bg_img");
-    // if (bgEl) bgEl.style.backgroundImage = `url(${bgImage})`;
-  }, []);
+  // useEffect(() => {
+  //   const bgEl = document.querySelector(".testimonial.bg_img");
+  //   if (bgEl) bgEl.style.backgroundImage = `url(/images/bg/testimonial-bg.png)`;
+  // }, []);
 
   return (
-    <section className="testimonial pb-150 bg_img">
+    <section className="testimonial pb-150 bg_img" style={{ backgroundImage: `url(/images/bg/testimonial-bg.png)` }}>
       <div className="container">
         <div className="sec-title sec-title-center tes-sec-title text-center mb-50">
           <span className="sub-title mb-15">Our Testimonial</span>

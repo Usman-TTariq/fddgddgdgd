@@ -3,7 +3,9 @@ import Link from 'next/link';
 import Team from "../../api/team";
 
 const ClickHandler = () => {
-  window.scrollTo({ top: 10, behavior: "smooth" });
+  if (typeof window !== 'undefined') {
+    window.scrollTo({ top: 10, behavior: "smooth" });
+  }
 };
 
 const TeamSection= ({ tClass }) => {

@@ -6,33 +6,37 @@ import Link from 'next/link';
 
 
 
-const MegaMenuServices= () => {
+const MegaMenuServices = () => {
   return (
     <ul className="submenu">
       <li>
         <div className="mega_menu_wrapper">
-          <div className="container-fluid p-0">
+          <div className="container p-0" style={{ width: "50%" }}>
             <div className="mega_menu_wrapper_inner megamenu_widget_wrapper">
               <div className="row justify-content-lg-between">
                 {/* ---------- Left Main Column ---------- */}
-                <div className="col-xl-9 col-lg-8">
+                <div className="col-xl-12 col-lg-12">
                   <div className="mega_menu_box">
                     <div className="megamenu_widget_inner">
                       <div className="row">
                         {/* Column 1 */}
-                        <div className="col-xl-4 col-lg-6 megamenu-col">
-                          <div className="megamenu_widget">
+                        <div className="col-xl-6 col-lg-6 megamenu-col">
+                          <div className="megamenu_widget" style={{ textAlign: "center" }}>
                             <ul className="icon_list unordered_list_block">
                               {[
-                                "AI saas product.",
-                                "Data and intelligence.",
-                                "AI for E-commerce.",
-                                "AI consulting.",
+                                {
+                                  label: "Clover",
+                                  to: "/clover",
+                                },
+                                {
+                                  label: "NRS",
+                                  to: "/nrs",
+                                },
                               ].map((text, index) => (
                                 <li key={index}>
-                                  <Link href="/service-details">
+                                  <Link href={text.to}>
                                     <span className="icon_list_text">
-                                      {text}
+                                      {text.label}
                                     </span>
                                   </Link>
                                 </li>
@@ -42,19 +46,23 @@ const MegaMenuServices= () => {
                         </div>
 
                         {/* Column 2 */}
-                        <div className="col-xl-8 col-lg-6 megamenu-col">
-                          <div className="megamenu_widget">
+                        <div className="col-xl-6 col-lg-6 megamenu-col">
+                          <div className="megamenu_widget" style={{ textAlign: "center" }}>
                             <ul className="icon_list unordered_list_block">
                               {[
-                                "AI chatbot virtual.",
-                                "AI - marketing.",
-                                "Machine learning.",
-                                "AI integration.",
+                                {
+                                  label: "Peripherals",
+                                  to: "/peripherals",
+                                },
+                                {
+                                  label: "PAX",
+                                  to: "/pax",
+                                },
                               ].map((text, index) => (
                                 <li key={index}>
-                                  <Link href="/service-details">
+                                  <Link href={text.to}>
                                     <span className="icon_list_text">
-                                      {text}
+                                      {text.label}
                                     </span>
                                   </Link>
                                 </li>
@@ -66,7 +74,7 @@ const MegaMenuServices= () => {
                     </div>
 
                     {/* ---------- Social + Service Link ---------- */}
-                    <div className="social_area">
+                    {/* <div className="social_area">
                       <div className="row mt-none-30 align-items-center">
                         <div className="col-xl-4 mt-30">
                           <div className="social_inner ul_li">
@@ -107,7 +115,6 @@ const MegaMenuServices= () => {
                           </div>
                         </div>
 
-                        {/* Service Link */}
                         <div className="col-xl-8 mt-30">
                           <div className="service_link">
                             <div className="xb-item--inner">
@@ -127,7 +134,6 @@ const MegaMenuServices= () => {
                             </div>
 
                             <Link href="/contact" className="xb-item--btn">
-                              {/* First SVG */}
                               <svg
                                 width="31"
                                 height="31"
@@ -193,7 +199,6 @@ const MegaMenuServices= () => {
                                 />
                               </svg>
 
-                              {/* Second SVG */}
                               <svg
                                 width="31"
                                 height="31"
@@ -264,12 +269,12 @@ const MegaMenuServices= () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
                 {/* ---------- Right Image Column ---------- */}
-                <div className="col-xl-3 col-lg-4">
+                {/* <div className="col-xl-3 col-lg-4">
                   <div className="megamenu_case">
                     <div className="xb-item--inner">
                       <div className="xb-item--img">
@@ -420,7 +425,7 @@ const MegaMenuServices= () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* ---------- END Right Column ---------- */}
               </div>
             </div>

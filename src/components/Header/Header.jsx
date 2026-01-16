@@ -18,6 +18,8 @@ const Header = () => {
   const router = useRouter();
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     const handleScroll = () => {
       const currentScroll = window.scrollY;
 
@@ -45,7 +47,11 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleClick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+  const handleClick = () => {
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
   const handleSubmit = (e) => e.preventDefault();
 
   return (
@@ -116,7 +122,7 @@ const Header = () => {
                   </li> */}
 
                   <li className="menu-item-has-children megamenu">
-                    <Link href="#" onClick={handleClick}>
+                    <Link href="/devices" onClick={handleClick}>
                       <span>Devices</span>
                     </Link>
                     <MegaMenuServices />

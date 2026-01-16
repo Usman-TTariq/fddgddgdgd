@@ -74,7 +74,7 @@ const ContactForm = () => {
               required
             />
             <label htmlFor="author-name">Your Name*</label>
-            <Image src="/images/icon/user-balck-icon.svg" alt="user" width={500} height={500} />
+            <Image src="/images/icon/user-balck-icon.svg" style={{width: "18px"}} alt="user" width={500} height={500} />
           </div>
           {validator.message("name", forms.name, "required|alpha_space")}
         </div>
@@ -91,13 +91,13 @@ const ContactForm = () => {
               required
             />
             <label htmlFor="author-email">Email Address*</label>
-            <Image src="/images/icon/sms-balck-icon.svg" alt="email" width={500} height={500} />
+            <Image src="/images/icon/sms-balck-icon.svg" style={{width: "18px"}} alt="email" width={500} height={500} />
           </div>
           {validator.message("email", forms.email, "required|email")}
         </div>
 
         {/* Phone */}
-        <div className="col-lg-6 col-md-6 mt-20">
+        <div className="col-lg-12 col-md-12 mt-20">
           <div className="xb-input-field">
             <input
               id="author-phone"
@@ -108,19 +108,19 @@ const ContactForm = () => {
               required
             />
             <label htmlFor="author-phone">Contact No*</label>
-            <Image src="/images/icon/call-icon02.svg" alt="phone" width={500} height={500} />
+            <Image src="/images/icon/call-icon02.svg" alt="phone" style={{width: "18px"}} width={500} height={500} />
           </div>
           {validator.message("phone", forms.phone, "required|numeric")}
         </div>
 
         {/* File Upload */}
-        <div className="col-lg-6 col-md-6 mt-20">
+        {/* <div className="col-lg-6 col-md-6 mt-20">
           <div className="xb-input-field xb-select-file">
             <input type="file" onChange={fileHandler} />
-            <Image src="/images/icon/upload-icon.svg" alt="upload" width={500} height={500} />
+            <Image src="/images/icon/upload-icon.svg" style={{width: "18px"}} alt="upload" width={500} height={500} />
             <span>{forms.file ? forms.file.name : "Attach file..."}</span>
           </div>
-        </div>
+        </div> */}
 
         {/* Select Field */}
         <div className="col-lg-12 col-md-12 mt-20">
@@ -132,12 +132,12 @@ const ContactForm = () => {
               required
               className="nice-select"
             >
-              <option value="">Select Service*</option>
-              <option value="AI - marketing">AI - marketing</option>
-              <option value="AI consulting">AI consulting</option>
-              <option value="AI chatbot virtual">AI chatbot virtual</option>
+              <option value="">Current monthly processing volume*</option>
+              <option value="AI - marketing">$0 - $10,000</option>
+              <option value="AI consulting">$10,000 - $50,000</option>
+              <option value="AI chatbot virtual">$50,000 - $100,000</option>
             </select>
-            <Image src="/images/icon/list-icon.svg" alt="list" width={500} height={500} />
+            <Image src="/images/icon/list-icon.svg" style={{width: "18px"}} alt="list" width={500} height={500} />
           </div>
           {validator.message("service", forms.service, "required")}
         </div>
@@ -153,7 +153,7 @@ const ContactForm = () => {
               required
             ></textarea>
             <label htmlFor="massage">Your Message..</label>
-            <Image src="/images/icon/messages-icon.svg" alt="message" width={500} height={500} />
+            <Image src="/images/icon/messages-icon.svg" style={{width: "18px"}} alt="message" width={500} height={500} />
           </div>
           {validator.message("message", forms.message, "required")}
         </div>

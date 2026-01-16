@@ -13,56 +13,58 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const awards1 = [
-    award01,
-    award02,
-    award03,
-    award04,
-    award05,
-    award06,
-    award07,
-    award08,
+    "/images/Asset 6.png",
+    "/images/Asset 5.png",
+    "/images/Asset 3.png",
+    "/images/Asset 4.png",
+    "/images/Asset 6.png",
+    "/images/Asset 5.png",
+    "/images/Asset 3.png",
+    "/images/Asset 4.png",
 ];
 
 const awards2 = [
-    award01,
-    award02,
-    award07,
-    award08,
-    award03,
-    award04,
-    award05,
-    award06,
+    "/images/Asset 6.png",
+    "/images/Asset 5.png",
+    "/images/Asset 3.png",
+    "/images/Asset 4.png",
+    "/images/Asset 6.png",
+    "/images/Asset 5.png",
+    "/images/Asset 3.png",
+    "/images/Asset 4.png",
 ];
 
 const awards3 = [
-    award01,
-    award03,
-    award02,
-    award04,
-    award06,
-    award05,
-    award08,
-    award07,
+    "/images/Asset 6.png",
+    "/images/Asset 5.png",
+    "/images/Asset 3.png",
+    "/images/Asset 4.png",
+    "/images/Asset 6.png",
+    "/images/Asset 5.png",
+    "/images/Asset 3.png",
+    "/images/Asset 4.png",
 ];
 
 const AwardSection = () => {
     return (
-        <section className="award pos-rel">
+        <section className="award pos-rel" style={{
+            backgroundImage: `url(/images/bg/industries-bg02.png)`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            paddingTop: "80px",
+        }}>
             <div className="container">
                 <div className="row align-items-center">
 
                     {/* LEFT CONTENT */}
                     <div className="col-lg-6">
                         <div className="sec-title mb-30">
-                            <span className="sub-title mb-20">Our awards</span>
+                            <span className="sub-title mb-20">Our Partners</span>
                             <h2 className="title title-line_height mb-5">
-                                We are prestigious award winner
+                                Trusted by Our Strategic Partners
                             </h2>
                             <p className="content">
-                                We are a prestigious award-winning agency, recognized for our
-                                excellence and innovation in delivering cutting-edge AI solutions
-                                that help businesses achieve remarkable growth and success. Our
-                                commitment client satisfaction.
+                                We are proud to collaborate with forward-thinking partners who share our passion for innovation and excellence. Together, we deliver cutting-edge AI solutions that drive measurable growth, create lasting value, and ensure exceptional outcomes for our clients. Our partnerships are built on trust, shared success, and a commitment to pushing the boundaries of what’s possible.
                             </p>
 
                             <div className="team-btn mt-40">
@@ -210,38 +212,33 @@ const AwardSection = () => {
                         </div>
                     </div>
 
-                    {/* RIGHT - MARQUEES */}
                     <div className="col-lg-6">
                         <div className="integration-logo-wrap ul_li">
 
-                            {/* Marquee 1 */}
                             <div className="award-logo-inner marquee-first">
                                 {awards1.map((img, i) => (
-                                    <div className="integration-logo award-logo" key={i}>
+                                    <div className="integration-logo award-logo" style={{padding: "16px"}} key={i}>
                                         <img src={img} alt="award logo" />
                                     </div>
                                 ))}
                             </div>
 
-                            {/* Marquee 2 */}
                             <div className="award-logo-inner marquee2">
                                 {awards2.map((img, i) => (
-                                    <div className="integration-logo award-logo" key={i}>
+                                    <div className="integration-logo award-logo" style={{padding: "16px"}} key={i}>
                                         <img src={img} alt="award logo" />
                                     </div>
                                 ))}
                             </div>
 
-                            {/* Marquee 3 */}
                             <div className="award-logo-inner marquee-first">
                                 {awards3.map((img, i) => (
-                                    <div className="integration-logo award-logo" key={i}>
+                                    <div className="integration-logo award-logo" style={{padding: "16px"}} key={i}>
                                         <img src={img} alt="award logo" />
                                     </div>
                                 ))}
                             </div>
 
-                            {/* SHAPES */}
                             <div className="xb-shape">
                                 <div className="shape shape--1"></div>
                                 <div className="shape shape--2"></div>

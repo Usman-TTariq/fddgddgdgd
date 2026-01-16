@@ -16,19 +16,19 @@ import Marquee from "react-fast-marquee";
 
 
 const BrandSection = () => {
-    const brandLogos = [
-        logo01,
-        logo02,
-        logo03,
-        logo04,
-        logo05,
-        logo06,
-        logo07,
-        logo08,
-        logo09,
-        logo10,
-        logo11,
-    ];
+    // const brandLogos = [
+    //     logo01,
+    //     logo02,
+    //     logo03,
+    //     logo04,
+    //     logo05,
+    //     logo06,
+    //     logo07,
+    //     logo08,
+    //     logo09,
+    //     logo10,
+    //     logo11,
+    // ];
 
     return (
         <section className="brand pb-150">
@@ -49,11 +49,11 @@ const BrandSection = () => {
                 className="brand-marquee ac-brand-marquee marquee-left"
             >
                 <div className="ac-brand-inner ul_li_between">
-                    {brandLogos.map((logo, i) => (
+                    {/* {brandLogos.map((logo, i) => (
                         <div key={i} className="xb-brand-item">
                             <img src={logo} alt={`brand-logo-${i + 1}`} />
                         </div>
-                    ))}
+                    ))} */}
                 </div>
             </Marquee>
         </section>

@@ -12,7 +12,7 @@ import Image from 'next/image';
 import BrandSection from "./BrandSection";
 
 
-const FeaturesAndBrands= () => {
+const FeaturesAndBrands = () => {
   return (
     <div
       className="bg_img"
@@ -25,13 +25,13 @@ const FeaturesAndBrands= () => {
       <section className="feature pt-145 pb-145">
         <div className="container">
           <div className="sec-title sec-title-center fea-sec-title text-center mb-50">
-            <span className="sub-title">Why Should Choose Us</span>
+            <span className="sub-title">Why Should You Choose Us</span>
             <h2 className="title">
-              Your success{" "}
+              We Make{" "}
               <span>
                 <Image src="/images/icon/diamond-icon02.gif" alt="icon" width={500} height={500} />
               </span>{" "}
-              is our mission
+              Selling Easy
             </h2>
           </div>
 
@@ -46,9 +46,9 @@ const FeaturesAndBrands= () => {
                 >
                   <div className="xb-item--inner justify-content-end xb-border">
                     <h2 className="xb-item--title text-end">
-                      Secure, ethical & <br /> scalable AI
+                      Reliable POS <br /> Transactions
                     </h2>
-                    <span className="xb-item--icon">
+                    <span className="xb-item--icon" style={{ padding: "12px" }}>
                       <Image src="/images/icon/fea-small-icon01.svg" alt="icon" width={500} height={500} />
                     </span>
                   </div>
@@ -61,9 +61,9 @@ const FeaturesAndBrands= () => {
                 >
                   <div className="xb-item--inner justify-content-end xb-border">
                     <h2 className="xb-item--title text-end">
-                      Custom-built <br /> solutions that fit you
+                      Personalized POS <br /> Solutions
                     </h2>
-                    <span className="xb-item--icon">
+                    <span className="xb-item--icon" style={{ padding: "12px" }}>
                       <Image src="/images/icon/fea-small-icon02.svg" alt="icon" width={500} height={500} />
                     </span>
                   </div>
@@ -76,9 +76,9 @@ const FeaturesAndBrands= () => {
                 >
                   <div className="xb-item--inner justify-content-end xb-border">
                     <h2 className="xb-item--title text-end">
-                      Secure, ethical, and <br /> responsible AI
+                      24/7 Expert Support
                     </h2>
-                    <span className="xb-item--icon">
+                    <span className="xb-item--icon" style={{ padding: "12px" }}>
                       <Image src="/images/icon/fea-small-icon03.svg" alt="icon" width={500} height={500} />
                     </span>
                   </div>
@@ -95,11 +95,11 @@ const FeaturesAndBrands= () => {
                   data-wow-duration="600ms"
                 >
                   <div className="xb-item--inner xb-border">
-                    <span className="xb-item--icon">
+                    <span className="xb-item--icon" style={{ padding: "12px" }}>
                       <Image src="/images/icon/fea-small-icon04.svg" alt="icon" width={500} height={500} />
                     </span>
                     <h2 className="xb-item--title">
-                      Expert team of AI <br /> specialists
+                      Faster Checkouts
                     </h2>
                   </div>
                 </div>
@@ -110,11 +110,11 @@ const FeaturesAndBrands= () => {
                   data-wow-duration="600ms"
                 >
                   <div className="xb-item--inner xb-border">
-                    <span className="xb-item--icon">
+                    <span className="xb-item--icon" style={{ padding: "12px" }}>
                       <Image src="/images/icon/fea-small-icon05.svg" alt="icon" width={500} height={500} />
                     </span>
                     <h2 className="xb-item--title">
-                      Speed without <br /> sacrificing quality
+                      Scalable Systems
                     </h2>
                   </div>
                 </div>
@@ -125,11 +125,11 @@ const FeaturesAndBrands= () => {
                   data-wow-duration="600ms"
                 >
                   <div className="xb-item--inner xb-border">
-                    <span className="xb-item--icon">
+                    <span className="xb-item--icon" style={{ padding: "12px" }}>
                       <Image src="/images/icon/fea-small-icon06.svg" alt="icon" width={500} height={500} />
                     </span>
                     <h2 className="xb-item--title">
-                      Client-centered, <br /> business-focused
+                      Client-Focused
                     </h2>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ const FeaturesAndBrands= () => {
                 data-wow-delay="0ms"
                 data-wow-duration="600ms"
               >
-                <Image style={{width: '70%'}} src="/images/p1.png" alt="icon" width={1000} height={1000} />
+                <Image style={{ width: '70%' }} src="/images/p1.png" alt="icon" width={1000} height={1000} />
                 {/* <ul className="xb-feature-shape list-unstyled">
                   <li>
                     <svg width="391" height="235" viewBox="0 0 391 235" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -183,7 +183,7 @@ const FeaturesAndBrands= () => {
           </div>
         </div>
       </section>
-      <BrandSection/>
+      <BrandSection />
     </div>
   );
 };

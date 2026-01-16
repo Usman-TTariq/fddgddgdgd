@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 
 
-const ServiceSection= () => {
+const ServiceSection = () => {
   // ========================
   // ICON SVG
   // ========================
@@ -87,47 +87,47 @@ const ServiceSection= () => {
   // ========================
   const services = [
     {
-      title: "AI saas product",
+      title: "Clover",
       content:
-        "We build scalable AI-powered SaaS solutions that automate tasks, deliver insights, and boost business performance.",
-      images: [img07, img07, img07, img07],
-      link: "/service-details",
+        "Win every shift, every sale, every day with Affordable Clover POS terminals built to keep up with the growing pace of your business.",
+      images: ["/images/retail-img-1.png", "/images/retail-img-1.png", "/images/retail-img-1.png", "/images/retail-img-1.png"],
+      link: "/clover",
     },
     {
-      title: "Data and intelligence..",
+      title: "Peripherals",
       content:
-        "We turn complex data into clear, actionable insights using AI and advanced analytics—empowering smarter decisions.",
-      images: [img08, img08, img08, img08],
-      link: "/service-details",
+        "Streamline sales, boost efficiency, and delight customers with Soireeinc's advanced POS solutions—designed for speed, security, and seamless transactions.",
+      images: ["/images/retail-img-2.png", "/images/retail-img-2.png", "/images/retail-img-2.png", "/images/retail-img-2.png"],
+      link: "/peripherals",
     },
     {
-      title: "AI for E-commerce",
+      title: "PAX",
       content:
-        "We enhance e-commerce with AI-powered, dynamic pricing, and personalized customer experiences.",
-      images: [img09, img09, img09, img09],
-      link: "/service-details",
+        "It's time to adopt a better, faster, and more efficient way of selling with the help of the latest PAX point of sale systems.",
+      images: ["/images/retail-img-3.png", "/images/retail-img-3.png", "/images/retail-img-3.png", "/images/retail-img-3.png"],
+      link: "/pax",
     },
     {
-      title: "AI consulting",
+      title: "NRS",
       content:
-        "We guide businesses in adopting AI strategies, optimizing processes, and integrating technologies for lasting success.",
-      images: [img11, img11, img11, img11],
-      link: "/service-details",
+        "Streamline sales, boost efficiency, and delight customers with Soireeinc's advanced POS solutions.",
+      images: ["/images/retail-img-4.png", "/images/retail-img-4.png", "/images/retail-img-4.png", "/images/retail-img-4.png"],
+      link: "/nrs",
     },
-    {
-      title: "AI chatbot virtual",
-      content:
-        "We create intelligent chatbots and virtual assistants that improve customer support and automate interactions 24/7.",
-      images: [img11, img11, img11, img11],
-      link: "/service-details",
-    },
-    {
-      title: "AI - marketing",
-      content:
-        "Use AI to target audiences, personalize campaigns, and analyze data for better engagement and results.",
-      images: [img07, img07, img07, img07],
-      link: "/service-details",
-    },
+    // {
+    //   title: "AI chatbot virtual",
+    //   content:
+    //     "We create intelligent chatbots and virtual assistants that improve customer support and automate interactions 24/7.",
+    //   images: [img11, img11, img11, img11],
+    //   link: "/service-details",
+    // },
+    // {
+    //   title: "AI - marketing",
+    //   content:
+    //     "Use AI to target audiences, personalize campaigns, and analyze data for better engagement and results.",
+    //   images: [img07, img07, img07, img07],
+    //   link: "/service-details",
+    // },
   ];
 
   // ========================
@@ -136,7 +136,7 @@ const ServiceSection= () => {
   return (
     <section
       className="service pos-rel bg_img"
-      style={{ backgroundImage: `url(${serviceBg})` }}
+      style={{ backgroundImage: `url(/images/bg/contact-bg.png)` }}
     >
       <div className="container">
         <div className="row mt-none-30">

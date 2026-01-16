@@ -14,16 +14,16 @@ import Image from 'next/image';
 
 
 
-const teamMembers = [
-  { name: "Ethan Reynolds", role: "AI Engineer", img: img01 },
-  { name: "Priya Ramirez", role: "Data Scientist", img: img02 },
-  { name: "Aiden Brooks", role: "AI Researcher", img: img03 },
-  { name: "Grayson Cole", role: "AI Solutions Architect", img: img04 },
-  { name: "Eliana Rose", role: "Intelligence Analyst", img: img05 },
-  { name: "Carter Vaughn", role: "AI Project Manager", img: img06 },
-  { name: "Logan Pierce", role: "AI Solutions Architect", img: img07 },
-  { name: "Emerson Tate", role: "AI Product Manager", img: img08 },
-];
+// const teamMembers = [
+//   { name: "Ethan Reynolds", role: "AI Engineer", img: img01 },
+//   { name: "Priya Ramirez", role: "Data Scientist", img: img02 },
+//   { name: "Aiden Brooks", role: "AI Researcher", img: img03 },
+//   { name: "Grayson Cole", role: "AI Solutions Architect", img: img04 },
+//   { name: "Eliana Rose", role: "Intelligence Analyst", img: img05 },
+//   { name: "Carter Vaughn", role: "AI Project Manager", img: img06 },
+//   { name: "Logan Pierce", role: "AI Solutions Architect", img: img07 },
+//   { name: "Emerson Tate", role: "AI Product Manager", img: img08 },
+// ];
 
 const TeamSection = () => {
   return (
@@ -37,7 +37,7 @@ const TeamSection = () => {
           <h2 className="title title-line_height">Dedicated professionals</h2>
         </div>
 
-        <div className="row mt-none-55">
+        {/* <div className="row mt-none-55">
           {teamMembers.map((member, i) => (
             <div
               className="col-xl-3 col-lg-4 col-md-6 col-sm-6 mt-55"
@@ -64,7 +64,7 @@ const TeamSection = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

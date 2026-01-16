@@ -19,8 +19,8 @@ const IndustriesMarqueeSection= () => {
     <section className="industries pos-rel pt-145 pb-50 bg_img">
       <div className="container">
         <div className="sec-title sec-title-center text-center mb-40">
-          <span className="sub-title mb-15">Professional & Trust-Building</span>
-          <h2 className="title">Real-time AI for smarter business</h2>
+          <span className="sub-title mb-15">Professional & Affordable POS</span>
+          <h2 className="title">Latest Point-of-sale for Optimized Sellings</h2>
         </div>
 
         <div className="row justify-content-center">
@@ -167,8 +167,8 @@ const IndustriesMarqueeSection= () => {
               </div>
 
               {/* ✅ Center Logo */}
-              <div className="xb-industries-logo wow zoomIn">
-                <Image src="/images/industries/indus-logo.png" alt="logo" width={500} height={500} />
+              <div className="xb-industries-logo wow zoomIn" style={{position: "relative", zIndex: "10"}}>
+                <Image src="/images/logoline.png" alt="logo" width={1000} height={1000} style={{width: "40%", position: "relative", top: "-59px", left: "190px", transform: "scale(1.95)"}} />
               </div>
             </div>
           </div>

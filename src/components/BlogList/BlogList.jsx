@@ -103,7 +103,7 @@ const BlogList= () => {
                 <div className="blog_details_item img-hove-effect ul_li xb-border">
                   <div className="xb-item--img xb-img">
                     {[1, 2, 3, 4].map((i) => (
-                      <Link key={i} href="/blog-details"><Image src="/images/blog/img06.jpg" alt="" alt="" / width={500} height={500} /></Link>
+                      <Link key={i} href="/blog-details"><Image src="/images/blog/img06.jpg" alt="" width={500} height={500} /></Link>
                     ))}
                   </div>
 
@@ -155,7 +155,7 @@ const BlogList= () => {
                 <div className="blog_details_item img-hove-effect ul_li xb-border">
                   <div className="xb-item--img xb-img">
                     {[1, 2, 3, 4].map((i) => (
-                      <Link key={i} href="/blog-details"><Image src="/images/blog/img07.jpg" alt="" alt="" / width={500} height={500} /></Link>
+                      <Link key={i} href="/blog-details"><Image src="/images/blog/img07.jpg" alt="" width={500} height={500} /></Link>
                     ))}
                   </div>
 

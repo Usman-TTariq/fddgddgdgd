@@ -101,38 +101,39 @@ const Footer= () => {
       name: "Twitter",
       url: "https://twitter.com/",
     },
-    {
-      icon: <i className="fa-brands fa-linkedin"></i>,
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/",
-    },
-    {
-      icon: <i className="fa-brands fa-square-youtube"></i>,
-      name: "YouTube",
-      url: "https://www.youtube.com/",
-    },
+    // {
+    //   icon: <i className="fa-brands fa-linkedin"></i>,
+    //   name: "LinkedIn",
+    //   url: "https://www.linkedin.com/",
+    // },
+    // {
+    //   icon: <i className="fa-brands fa-square-youtube"></i>,
+    //   name: "YouTube",
+    //   url: "https://www.youtube.com/",
+    // },
   ];
 
   return (
     <footer
-      className="footer footer-style-one pt-145 bg_img"
+      className="footer footer-style-one pt-0 bg_img"
       // style={{ backgroundImage: `url(${footerBg})` }}
     >
       <div className="xb-footer-wrap">
         {/* Footer Heading */}
         <div className="xb-footer-heading wow zoomIn" data-wow-delay="0ms" data-wow-duration="600ms">
-          <h1 className="title">Aivora</h1>
-          <a className="mail" href="mailto:aivora@domain.com">
-            <Image src="/images/icon/email-icon.svg" alt="email" width={500} height={500} /> aivora@domain.com
+          <h1 className="title" style={{fontSize: "300px"}}>POS</h1>
+          <h1 className="title" style={{fontSize: "300px"}}>VERGE</h1>
+          <a className="mail" href="mailto:info@posverge.com">
+          info@posverge.com
           </a>
         </div>
 
         {/* Footer Navigation */}
         <div className="xb-footer-nav">
           <div className="xb-footer-nav-item">
-            <span className="sub-title">What we do?</span>
+            <span className="sub-title">Our Devices?</span>
             <h2 className="title">
-              <Link href="/service">Services</Link>
+              <Link href="/devices">Devices</Link>
             </h2>
           </div>
           <div className="xb-footer-nav-item">
@@ -147,18 +148,18 @@ const Footer= () => {
               <Link href="/contact">Contact us</Link>
             </h2>
           </div>
-          <div className="xb-footer-nav-item">
+          {/* <div className="xb-footer-nav-item">
             <span className="sub-title">What we're good at?</span>
             <h2 className="title">
               <Link href="/project">Our project</Link>
             </h2>
-          </div>
-          <div className="xb-footer-nav-item">
+          </div> */}
+          {/* <div className="xb-footer-nav-item">
             <span className="sub-title">News?</span>
             <h2 className="title">
               <Link href="/blog">News</Link>
             </h2>
-          </div>
+          </div> */}
         </div>
 
         {/* Social Media Section */}
@@ -186,8 +187,8 @@ const Footer= () => {
         {/* Footer Bottom */}
         <div className="xb-footer-bottom">
           <div className="contact-item">
-            <Image src="/images/icon/location-icon.svg" alt="location" width={500} height={500} />
-            <span className="contact-method">4517 Washington, USA</span>
+            <Image src="/images/icon/location-icon.svg" style={{width: "22px"}} alt="location" width={500} height={500} />
+            <span className="contact-method" style={{fontSize: "18px"}}>8701 Menchaca Rd bldg 1 Austin, TX 78748, USA</span>
           </div>
 
           <div className="contact-item copyright-item">
@@ -198,9 +199,9 @@ const Footer= () => {
 
           <div className="contact-item">
             <a href="tel:+112304528597">
-              <Image src="/images/icon/call-icon.svg" alt="call" width={500} height={500} />
+              <Image src="/images/icon/call-icon.svg" style={{width: "22px"}} alt="call" width={500} height={500} />
             </a>
-            <a className="contact-method" href="tel:+112304528597">
+            <a className="contact-method" href="tel:+112304528597" style={{fontSize: "18px"}}>
               +(1)1230 452 8597
             </a>
           </div>

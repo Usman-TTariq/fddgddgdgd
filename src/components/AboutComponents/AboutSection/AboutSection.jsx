@@ -26,12 +26,12 @@ const AboutSection = () => {
 
       <div className="container">
         {/* ===== Top Scrolling Images ===== */}
-        <div className="about-top-image ul_li_between align-items-start">
+        <div className="about-custom-imgs about-top-image ul_li_between align-items-start">
 
           {/* Column 1 */}
           <div className="img-hove-effect">
             <div className="xb-img">
-              {[img05, img05, img05, img05].map((img, i) => (
+              {["/images/about-1.png", "/images/about-1.png", "/images/about-1.png", "/images/about-1.png"].map((img, i) => (
                 <Link key={i} href="/about">
                   <img src={img} alt="about" />
                 </Link>
@@ -42,7 +42,7 @@ const AboutSection = () => {
           {/* Column 2 */}
           <div className="img-hove-effect">
             <div className="xb-img">
-              {[img06, img06, img06, img06].map((img, i) => (
+              {["/images/about-4.png", "/images/about-4.png", "/images/about-4.png", "/images/about-4.png"].map((img, i) => (
                 <Link key={i} href="/about">
                   <img src={img} alt="about" />
                 </Link>
@@ -52,21 +52,21 @@ const AboutSection = () => {
 
           {/* Video */}
           <div className="xb-video">
-            <video
-              loop
-              muted
-              playsInline
-              autoPlay
-              poster={videoPoster}
-            >
-              <source src="https://www.pexels.com/download/video/18069701/" />
-            </video>
+            <div className="img-hove-effect">
+              <div className="xb-img">
+                {["/images/about-5.png", "/images/about-5.png", "/images/about-5.png", "/images/about-5.png"].map((img, i) => (
+                  <Link key={i} href="/about">
+                    <img src={img} alt="about" />
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
 
           {/* Column 3 */}
           <div className="img-hove-effect">
             <div className="xb-img">
-              {[img07, img07, img07, img07].map((img, i) => (
+              {["/images/about-3.png", "/images/about-3.png", "/images/about-3.png", "/images/about-3.png"].map((img, i) => (
                 <Link key={i} href="/about">
                   <img src={img} alt="about" />
                 </Link>
@@ -77,7 +77,7 @@ const AboutSection = () => {
           {/* Column 4 */}
           <div className="img-hove-effect">
             <div className="xb-img">
-              {[img08, img08, img08, img08].map((img, i) => (
+              {["/images/about-2.png", "/images/about-2.png", "/images/about-2.png", "/images/about-2.png"].map((img, i) => (
                 <Link key={i} href="/about">
                   <img src={img} alt="about" />
                 </Link>
@@ -91,20 +91,11 @@ const AboutSection = () => {
           <span className="sub-title mb-10">Who We are?</span>
 
           <h2 className="title">
-            We helping
-            <span><Image src="/images/icon/original-66948a0d81d.gif" alt="gif" width={500} height={500} /></span>
-            grow businesses and
-            <span><Image src="/images/icon/0deec720000b2066289b.gif" alt="gif" width={500} height={500} /></span>
-            scale with smart,
-            <span><Image src="/images/icon/b10c3e43e836d32554bf.gif" alt="gif" width={500} height={500} /></span>
-            data-driven AI agency
+            We are the leading POS supplier scale with smart, data-driven AI agency
           </h2>
 
           <p className="content">
-            We help grow and scale your business by delivering smart,
-            data-driven AI solutions tailored to your needs. Our technology
-            optimizes operations, enhances decision-making, and uncovers new
-            opportunities for growth.
+            Streamline your checkouts with Android-based POS terminals, setups, and devices. Manage checkouts and update inventory, with shorter queues and happier customers
           </p>
         </div>
 
@@ -164,8 +155,8 @@ const AboutSection = () => {
       </div>
 
       {/* Background */}
-      <div className="about-bg">
-        <Image src="/images/bg/about-bg02.png" alt="background" width={500} height={500} />
+      <div className="about-bg" style={{width: "100%", height: "100%"}}>
+        <Image src="/images/bg/about-bg02.png" alt="background" width={500} height={500} style={{width: "100%", height: "100%"}} />
       </div>
     </section>
   );

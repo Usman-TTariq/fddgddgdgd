@@ -45,7 +45,7 @@ const FeatureSection = () => {
       ref={sectionRef}
       className="feature-section parallax-section"
       style={{
-        backgroundImage: `url(${bgImage})`,
+        backgroundImage: `url(/images/peripheral-slide.png)`,
       }}
     >
       <div className="container">
@@ -65,11 +65,11 @@ const FeatureSection = () => {
                 <div className="col-lg-6 col-md-6 mt-30">
                   <div className="xb-feature-item xb-feature-item2">
                     <div className="xb-item--inner xb-border">
-                      <span className="xb-item--icon">
+                      <span className="xb-item--icon" style={{padding: "12px"}}>
                         <Image src="/images/icon/fea-small-icon01.svg" alt="icon" width={500} height={500} />
                       </span>
                       <h2 className="xb-item--title">
-                        Secure, ethical & <br /> scalable AI
+                        Reliable POS <br /> Transactions
                       </h2>
                     </div>
                   </div>
@@ -79,11 +79,11 @@ const FeatureSection = () => {
                 <div className="col-lg-6 col-md-6 mt-30">
                   <div className="xb-feature-item xb-feature-item2 xb-border">
                     <div className="xb-item--inner xb-border">
-                      <span className="xb-item--icon">
+                      <span className="xb-item--icon" style={{padding: "12px"}}>
                         <Image src="/images/icon/fea-small-icon04.svg" alt="icon" width={500} height={500} />
                       </span>
                       <h2 className="xb-item--title">
-                        Expert team of AI <br /> specialists
+                        Faster Checkouts
                       </h2>
                     </div>
                   </div>
@@ -93,11 +93,11 @@ const FeatureSection = () => {
                 <div className="col-lg-6 col-md-6 mt-30">
                   <div className="xb-feature-item xb-feature-item2">
                     <div className="xb-item--inner xb-border">
-                      <span className="xb-item--icon">
+                      <span className="xb-item--icon" style={{padding: "12px"}}>
                         <Image src="/images/icon/fea-small-icon02.svg" alt="icon" width={500} height={500} />
                       </span>
                       <h2 className="xb-item--title">
-                        Custom-built <br /> solutions that fit you
+                        Personalized POS <br /> Solutions
                       </h2>
                     </div>
                   </div>
@@ -107,11 +107,11 @@ const FeatureSection = () => {
                 <div className="col-lg-6 col-md-6 mt-30">
                   <div className="xb-feature-item xb-feature-item2 xb-border">
                     <div className="xb-item--inner xb-border">
-                      <span className="xb-item--icon">
+                      <span className="xb-item--icon" style={{padding: "12px"}}>
                         <Image src="/images/icon/fea-small-icon06.svg" alt="icon" width={500} height={500} />
                       </span>
                       <h2 className="xb-item--title">
-                        Client-centered, <br /> business-focused
+                        Client-Focused
                       </h2>
                     </div>
                   </div>

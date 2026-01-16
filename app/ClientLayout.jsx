@@ -26,6 +26,8 @@ gsap.registerPlugin(SplitText, ScrollTrigger);
 
 export function ClientLayout({ children }) {
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    
     // Lenis Smooth Scroll
     const lenis = new Lenis({
       duration: 1.2,
@@ -78,6 +80,8 @@ export function ClientLayout({ children }) {
       });
     };
 
+    if (typeof document === 'undefined') return;
+    
     const timeout = setTimeout(applySplitTextReveal, 400);
 
     const observer = new MutationObserver(() => {

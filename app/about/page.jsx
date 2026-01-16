@@ -20,9 +20,9 @@ export default function AboutPage() {
           <main>
             <PageTitle pageTitle="About Us" pagesub="About Us" />
             <AboutSection />
-            <BrandSection />
+            {/* <BrandSection /> */}
             <FeatureSection />
-            <TeamSection />
+            {/* <TeamSection /> */}
             <AwardSection />
           </main>
           <Footer />

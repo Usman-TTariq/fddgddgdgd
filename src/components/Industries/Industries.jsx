@@ -23,13 +23,13 @@ const IndustriesSection= () => {
 
   // ✅ Industries data
   const industries = [
-    { icon: "", title: "Education" },
-    { icon: "", title: "Logistics" },
-    { icon: "", title: "Marketing" },
-    { icon: "", title: "Healthcare" },
-    { icon: "", title: "Finance" },
-    { icon: "", title: "Manufacturing" },
-    { icon: "", title: "E-commerce" },
+    { icon: "/images/icon/service-icon01.svg", title: "Education" },
+    { icon: "/images/icon/service-icon02.svg", title: "Logistics" },
+    { icon: "/images/icon/service-icon03.svg", title: "Marketing" },
+    { icon: "/images/icon/service-icon04.svg", title: "Healthcare" },
+    { icon: "/images/icon/service-icon05.svg", title: "Finance" },
+    { icon: "/images/icon/service-icon06.svg", title: "Manufacturing" },
+    { icon: "/images/icon/service-icon07.svg", title: "E-commerce" },
   ];
 
   return (
@@ -37,7 +37,7 @@ const IndustriesSection= () => {
       <div className="container">
         <div className="sec-title sec-title-center text-center mb-50">
           <span className="sub-title mb-15">Industries Served</span>
-          <h2 className="title">Industries we served with AI</h2>
+          <h2 className="title">Industries we served with Affordable POS</h2>
         </div>
       </div>
 

@@ -1,9 +1,11 @@
 import { ClientLayout } from "./ClientLayout";
 import "./globals.css";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
-  title: "Aivora - AI Agency & Technology React Template",
-  description: "Web site created using create-react-app",
+  title: "POSVERGE - POS System & Hardware Solutions",
+  description: "POSVERGE - POS System & Hardware Solutions",
 };
 
 export default function RootLayout({ children }) {

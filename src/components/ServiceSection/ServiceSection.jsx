@@ -16,31 +16,31 @@ import Link from 'next/link';
 const services = [
   {
     id: 1,
-    title: "AI SaaS Product",
-    desc: "Use AI to target audiences, personalize campaigns, and analyze data for better engagement and results.",
+    title: "Clover",
+    desc: "Get your hands on the best Clover point-of-sale systems for hassle-free counter management and smarter selling.",
     img: "/images/retail-img-1.png",
-    link: "/service-details",
+    link: "/clover",
   },
   {
     id: 2,
-    title: "Data Science",
-    desc: "We turn complex data into clear, actionable insights using AI and advanced analytics—empowering smarter decisions.",
+    title: "Peripherals",
+    desc: "Discover Mobile POS peripherals that match your counter logistics, including premium printers, scanners, scales, and accessories.",
     img: "/images/retail-img-2.png",
-    link: "/service-details",
+    link: "/peripherals",
   },
   {
     id: 3,
-    title: "AI Chatbot Virtual",
-    desc: "We create intelligent chatbots and virtual assistants that improve customer support and automate interactions 24/7.",
+    title: "PAX",
+    desc: "Explore the Newest PAX point-of-sale systems for retail and restaurants, featuring faster processing and secure transactions.",
     img: "/images/retail-img-3.png",
-    link: "/service-details",
+    link: "/pax",
   },
   {
     id: 4,
-    title: "AI for E-commerce",
-    desc: "We enhance e-commerce with AI-powered, dynamic pricing, and personalized customer experiences.",
+    title: "NRS",
+    desc: "Upgrade your checkout game with the latest NRS full-fledged POS systems, designed for scaling businesses.",
     img: "/images/retail-img-4.png",
-    link: "/service-details",
+    link: "/nrs",
   },
   // {
   //   id: 5,
@@ -72,16 +72,16 @@ const ServiceSection = () => {
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="sec-title custom-sec-title xb-sec-padding text-center">
-              <span className="sub-title">Our Main Services</span>
+              <span className="sub-title">Our Main Offering</span>
               <h2 className="title">
                 <span className="round-img">
                   <Image src="/images/icon/b10c3e43e836d32554bf.gif" alt="gif" width={500} height={500} />
                 </span>{" "}
-                Helping you grow with the power of AI
+                Reliable & Scalable POS systems built for retail businesses
               </h2>
               <div className="xb-heading-btn d-inline">
-                <Link className="thm-btn agency-btn" href="/service">
-                  <span className="text">view more services</span>
+                <Link className="thm-btn agency-btn" href="/devices">
+                  <span className="text">view our devices</span>
                   <span className="arrow">
                     <span className="arrow-icon">
                       <svg

@@ -28,16 +28,16 @@ const AboutSection = () => {
       <div className="container">
         <div className="sec-title about-sec-title mb-75">
           <span className="sub-title">Who We are?</span>
-          <h2 className="title">
-            We helping
+          <h2 className="title" style={{textAlign: "center"}}>
+            We are the
             <span>
               <Image src="/images/icon/original-66948a0d81d.gif" alt="animation" width={500} height={500} />
             </span>{" "}
-            grow businesses and
+            leading POS supplier
             <span>
               <Image src="/images/icon/0deec720000b2066289b.gif" alt="animation" width={500} height={500} />
             </span>
-            scale with smart, data-driven AI agency{" "}
+            offering the best POS system in the USA for safer, secure, and simpler business logistics.{" "}
             <span>
               <Image src="/images/icon/b10c3e43e836d32554bf.gif" alt="animation" width={500} height={500} />
             </span>

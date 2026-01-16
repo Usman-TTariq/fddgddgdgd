@@ -48,7 +48,7 @@ const ContactSection= () => {
     <section
       className="contact-section pt-150 pb-140 bg_img"
       ref={sectionRef}
-      // style={{ backgroundImage: `url(${contactBg})` }}
+      style={{ backgroundImage: `url(/images/bg/contact-bg.png)` }}
     >
       <div className="container">
         <div className="row mt-none-50 justify-content-center">
@@ -59,7 +59,7 @@ const ContactSection= () => {
                 <span className="sub-title mb-15">Our Achievements</span>
                 <h2 className="title horizontal-shape">
                   We are trusted{" "}
-                  <Image src="/images/icon/b10c3e43e836d32554bf.gif" alt="animated-shape" width={500} height={500} /> AI agency
+                  <Image src="/images/icon/b10c3e43e836d32554bf.gif" alt="animated-shape" width={500} height={500} /> POS supplier!
                 </h2>
               </div>
 
@@ -71,7 +71,7 @@ const ContactSection= () => {
                       <span className="suffix">K+</span>
                     </h3>
                     <p className="xb-item--content">
-                      Projects Successfully Delivered
+                      Products Successfully Delivered
                     </p>
                   </div>
 
@@ -88,10 +88,10 @@ const ContactSection= () => {
 
                 {/* Shapes */}
                 <div className="shape shape--1">
-                  <Image src="/images/shape/contact-shape01.png" alt="shape" width={500} height={500} />
+                  <Image src="/images/shape/contact-shape01.png" style={{width: "134px"}} alt="shape" width={500} height={500} />
                 </div>
                 <div className="shape shape--2">
-                  <Image src="/images/shape/contact-shape02.png" alt="shape" width={500} height={500} />
+                  <Image src="/images/shape/contact-shape02.png" style={{width: "134px"}} alt="shape" width={500} height={500} />
                 </div>
               </div>
             </div>

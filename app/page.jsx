@@ -17,7 +17,7 @@ import Scrollbar from "../src/components/scrollbar/scrollbar";
 
 export default function HomePage() {
   useEffect(() => {
-    document.title = "Home | AI Agency & Technology React Template";
+    document.title = "Pos Verge - POS System & Hardware Solutions";
   }, []);
 
   return (
@@ -34,7 +34,7 @@ export default function HomePage() {
           <IndustriesSection />
           <ContactSection />
           <TestimonialSection />
-          <BlogSection />
+          {/* <BlogSection /> */}
         </main>
         <Footer />
         <Scrollbar />

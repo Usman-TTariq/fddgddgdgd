@@ -3,9 +3,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // === Image Imports ===
-
-
-
+const img01 = "/images/career/img01.jpg";
+const img02 = "/images/career/img02.jpg";
+const img03 = "/images/career/img03.jpg";
+const img04 = "/images/career/img04.jpg";
+const img05 = "/images/career/img05.jpg";
 
 
 

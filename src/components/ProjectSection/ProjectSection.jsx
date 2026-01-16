@@ -21,11 +21,13 @@ import Image from 'next/image';
 
 import Link from 'next/link';
 
-const ProjectSection= () => {
+const ProjectSection = () => {
   useEffect(() => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') return;
+    
     // ✅ Set dynamic background image
     const bgElement = document.querySelector(".project.bg_img");
-   
+
 
     // ✅ Scroll activation logic
     const items = document.querySelectorAll(".xb-project-item");
@@ -76,20 +78,20 @@ const ProjectSection= () => {
   return (
     <section className="project bg_img pt-135 pb-150" style={{ backgroundImage: `url(/images/bg/project-bg.png)`, backgroundSize: 'cover' }}>
       <div className="container">
-        <div className="sec-title custom-sec-title xb-sec-padding text-center">
+        <div className="sec-title custom-sec-title xb-sec-padding text-center" style={{ marginBottom: "15px" }}>
           {/* <span className="sub-title">Our Projects</span> */}
           <h2 className="title">
             <span className="round-img">
               <Image src="/images/icon/b10c3e43e836d32554bf.gif" alt="animation" width={500} height={500} />
             </span>{" "}
-            See the results that reflect of our hard work
+            The Finest End-To-End Point of Sale Systems for Faster Checkouts and Shorter Queues!
           </h2>
-        
+
         </div>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div className="xb-heading-btn d-inline">
-            <Link className="thm-btn agency-btn" href="/project">
-              <span className="text">view more projects</span>
+          <div className="xb-heading-btn d-inline" style={{ marginBottom: "35px" }}>
+            <Link className="thm-btn agency-btn" href="/devices">
+              <span className="text">view our devices</span>
               <span className="arrow">
                 <span className="arrow-icon">
                   {/* Double SVG arrow */}
@@ -184,32 +186,32 @@ const ProjectSection= () => {
             {[
               {
                 img: "/images/clover-1.png",
-                title: "Chatbot and NLP projects..",
-                desc: "We build smart chatbots and NLP tools that understand and respond naturally. From customer support to document analysis, our AI solutions automate communication, save time, and improve user experience.",
+                title: "Slow Checkout Resolution? Try Clover POS Systems!",
+                desc: "Soireeinc offers credible Clover POS systems with fast processing, a sleek, latest interface, and diverse payment compatibility to streamline your services and improve customer flow for restaurants and retailers.",
                 industry: "Data Processing",
                 country: "Germany, Issum",
                 techs: ["", "", ""],
               },
               {
                 img: "/images/retail-img-4.png",
-                title: "E-commerce & marketing..",
-                desc: "We create AI solutions that boost sales and customer engagement—like smart product recommendations, dynamic pricing, and behavior-based targeting. Our tools help brands personalize experiences and grow faster.",
+                title: "Inventory Inaccuracy Control? Choose NRS POS Systems!",
+                desc: "NRS is built to offer real-time inventory tracking. It handles messy inventories and restores control with automated stock updates, quick error detection, and overstocking or stockout prevention.",
                 industry: "Artificial Intelligence",
                 country: "Singapore",
                 techs: ["", "", ""],
               },
               {
                 img: "/images/pax-slide.png",
-                title: "Computer vision projects..",
-                desc: "We develop AI systems that see and understand visual data—detecting objects, recognizing patterns, and automating inspections. Our computer vision solutions help businesses improve accuracy, decision-making.",
+                title: "Payment Failure and Security Fix? PAX Payment Terminals can come in handy!",
+                desc: "PAX devices are programmed to prevent payment issues through secure, reliable transactions. It utilizes advanced encryption and broad payment acceptance to minimize declined payments and security risks.",
                 industry: "Computer Vision",
                 country: "United States",
                 techs: ["", "", ""],
               },
               {
                 img: "/images/peripheral-slide.png",
-                title: "Data science analytics..",
-                desc: "We turn complex data into clear, actionable insights. From predictive models to real-time dashboards, our AI-powered analytics help businesses make smarter, faster decisions with confidence.",
+                title: "Order Errors and Workflow Gaps? POS Peripherals to the rescue!",
+                desc: "POS systems for e-commerce and grocery stores can lag with proper peripherals such as scanners, printers, and displays. The right peripheral provides the support needed to maximize POS software's output with accurate scanning, clear receipts, and customer-facing displays.We turn complex data into clear, actionable insights. From predictive models to real-time dashboards, our AI-powered analytics help businesses make smarter, faster decisions with confidence.",
                 industry: "Data Science",
                 country: "Canada",
                 techs: ["", "", ""],

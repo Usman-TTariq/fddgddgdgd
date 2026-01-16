@@ -8,7 +8,7 @@ const PageTitle = ({ pageTitle, pagesub }) => {
     <section
       className="breadcrumb bg_img"
       style={{
-        backgroundImage: `url(${bgImage})`,
+        backgroundImage: `url(/images/bg/bootcamp-bg.png)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
