@@ -5,7 +5,7 @@ import Header from "../../src/components/Header/Header";
 import PageTitle from "../../src/components/pagetitle/PageTitle";
 import Scrollbar from "../../src/components/scrollbar/scrollbar";
 import Footer from "../../src/components/footer/Footer";
-import PAXSection from "../../src/main-component/PAXSection/cloverSection";
+import PAXSection from "../../src/main-component/PaxSection/cloverSection";
 
 export default function PAXPage() {
   return (
