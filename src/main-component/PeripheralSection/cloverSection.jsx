@@ -6,11 +6,11 @@ import GallerySection from "./GallerySection";
 
 // const VIDEO_URL = "https://www.youtube.com/embed/F8NKVhkZZWI?autoplay=1";
 
-const CloverSection= () => {
+const CloverSection = () => {
 
 
     const [isOpen, setIsOpen] = useState(false);
-    const iframeRef = useRef<HTMLIFrameElement | null>(null);
+    const iframeRef = useRef < HTMLIFrameElement | null > (null);
 
     const openVideo = () => {
         setIsOpen(true);
@@ -27,12 +27,12 @@ const CloverSection= () => {
 
 
     const outcomeItems = [
-        "AI-Powered Data Analysis.",
-        "Real-Time Analytics.",
-        "Scalable Data Infrastructure.",
-        "Enterprise System Integration.",
-        "Automated Data Processing.",
-        "Smart Decision Support.",
+        "Reliable POS Transactions",
+        "Personalized POS Solutions",
+        "24/7 Expert Support",
+        "Faster Checkouts",
+        "Scalable Systems",
+        "Client-Focused",
     ];
 
 
@@ -64,19 +64,19 @@ const CloverSection= () => {
                 </div>
                 {/* ========= TITLE & TEXT ========= */}
                 <h2 className="details-content-title mb-15">
-                    Data and intelligence solutions for smarter.
+                Step Up to Professional POS Peripherals for Smooth Payments
                 </h2>
 
                 <p>
-                    Unlock the true value of your data with our comprehensive AI-driven data and intelligence solutions. We help businesses collect, organize, and analyze vast amounts of information to extract meaningful insights and make smarter, faster decisions. By leveraging advanced analytics, machine learning, and real-time data processing, we transform raw data into powerful tools for innovation, strategy, and growth. Whether you're looking to optimize operations, improve customer experiences, or forecast trends, our solutions provide the intelligence you need to stay ahead in a competitive, data-driven world.
+                Streamline sales, boost efficiency, and delight customers with Soireeinc's advanced POS solutions—designed for speed, security, and seamless transactions.
                 </p>
 
-                <p className="mt-30">
+                {/* <p className="mt-30">
                     We turn complex information into clear, actionable insights. These insights empower smarter decisions, streamline operations, enhance customer experiences, and drive measurable business growth. Whether you're navigating market trends, optimizing workflows, or building data-driven strategies, we provide the tools and expertise to help you lead with confidence in a data-first world.
-                </p>
+                </p> */}
 
                 {/* ========= GALLERY ========= */}
-                <GallerySection/>
+                <GallerySection />
 
                 {/* ========= SERVICE PROCESS ========= */}
                 <ServiceFaq />
@@ -85,9 +85,9 @@ const CloverSection= () => {
                 {/* ========= SERVICES OUTCOME ========= */}
                 <div className="services-outcome-wrap">
                     <h2 className="details-content-title mb-15">Services outcome</h2>
-                    <p>
+                    {/* <p>
                         We help Fortune 500 companies accelerate innovation through advanced data and intelligence solutions. Using AI, machine learning, and real-time analytics, we turn complex data into actionable insights. Our services empower smarter decisions, improve performance.
-                    </p>
+                    </p> */}
 
                     <ul className="service-outcome-list list-unstyled mt-35">
                         {outcomeItems.map((item, i) => (

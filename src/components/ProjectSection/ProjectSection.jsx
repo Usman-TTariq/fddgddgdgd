@@ -186,7 +186,7 @@ const ProjectSection = () => {
             {[
               {
                 img: "/images/clover-1.png",
-                title: "Slow Checkout Resolution? Try Clover POS Systems!",
+                title: <>Slow Checkout Resolution?<br />Try Clover POS Systems!</>,
                 desc: "Soireeinc offers credible Clover POS systems with fast processing, a sleek, latest interface, and diverse payment compatibility to streamline your services and improve customer flow for restaurants and retailers.",
                 industry: "Data Processing",
                 country: "Germany, Issum",
@@ -194,7 +194,7 @@ const ProjectSection = () => {
               },
               {
                 img: "/images/retail-img-4.png",
-                title: "Inventory Inaccuracy Control? Choose NRS POS Systems!",
+                title: <>Inventory Inaccuracy Control?<br />Choose NRS POS Systems!</>,
                 desc: "NRS is built to offer real-time inventory tracking. It handles messy inventories and restores control with automated stock updates, quick error detection, and overstocking or stockout prevention.",
                 industry: "Artificial Intelligence",
                 country: "Singapore",
@@ -202,7 +202,7 @@ const ProjectSection = () => {
               },
               {
                 img: "/images/pax-slide.png",
-                title: "Payment Failure and Security Fix? PAX Payment Terminals can come in handy!",
+                title: <>Payment Failure and Security Fix?<br />PAX Payment Terminals can come in handy!</>,
                 desc: "PAX devices are programmed to prevent payment issues through secure, reliable transactions. It utilizes advanced encryption and broad payment acceptance to minimize declined payments and security risks.",
                 industry: "Computer Vision",
                 country: "United States",
@@ -210,7 +210,7 @@ const ProjectSection = () => {
               },
               {
                 img: "/images/peripheral-slide.png",
-                title: "Order Errors and Workflow Gaps? POS Peripherals to the rescue!",
+                title: <>Order Errors and Workflow Gaps?<br />POS Peripherals to the rescue!</>,
                 desc: "POS systems for e-commerce and grocery stores can lag with proper peripherals such as scanners, printers, and displays. The right peripheral provides the support needed to maximize POS software's output with accurate scanning, clear receipts, and customer-facing displays.We turn complex data into clear, actionable insights. From predictive models to real-time dashboards, our AI-powered analytics help businesses make smarter, faster decisions with confidence.",
                 industry: "Data Science",
                 country: "Canada",

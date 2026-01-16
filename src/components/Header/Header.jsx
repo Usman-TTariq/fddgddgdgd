@@ -19,7 +19,7 @@ const Header = () => {
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    
+
     const handleScroll = () => {
       const currentScroll = window.scrollY;
 
@@ -179,16 +179,25 @@ const Header = () => {
               <div className="xb-header-menu-scroll">
                 <div
                   className="xb-menu-close xb-hide-xl xb-close"
+                  style={{ marginTop: '10px' }}
                   onClick={() => setMobileActive(false)}
                 ></div>
 
                 <div className="xb-logo-mobile xb-hide-xl">
                   <Link href="/" rel="home">
-                    <Image src="/images/logo/logo.svg" alt="Logo" width={500} height={500} />
+                    <div className="xb-header-logo" style={{ display: 'flex', alignItems: 'center', gap: '15px', cursor: 'pointer' }} onClick={() => router.push('/')}>
+                      {/* <Link href="/" className="logo1" onClick={handleClick}> */}
+                      <Image style={{ width: '50px', height: 'auto' }} src="/images/Asset 1.png" alt="Logo" width={500} height={500} />
+                      {/* </Link> */}
+                      {/* <Link href="/" className="logo1" onClick={handleClick}> */}
+                      <Image style={{ width: '150px', height: 'auto' }} src="/images/Asset 2.png" alt="Logo" width={500} height={400} />
+                      {/* </Link> */}
+                    </div>
+                    {/* <Image src="/images/logo/logo.svg" alt="Logo" width={500} height={500} /> */}
                   </Link>
                 </div>
 
-                <div className="xb-header-mobile-search xb-hide-xl">
+                {/* <div className="xb-header-mobile-search xb-hide-xl">
                   <form role="search" onSubmit={handleSubmit}>
                     <input
                       type="text"
@@ -200,7 +209,7 @@ const Header = () => {
                       <i className="far fa-search"></i>
                     </button>
                   </form>
-                </div>
+                </div> */}
 
                 <nav className="xb-header-nav">
                   <MobileMenu />

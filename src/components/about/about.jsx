@@ -1,27 +1,14 @@
 import React, { useEffect } from "react";
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
-
-
-// Animated GIFs
-
-
-
-
-// About images (3–4 images)
-
-
-
 import Link from 'next/link';
 
-
 const AboutSection = () => {
-  // useEffect(() => {
-  //   const bgEl = document.querySelector(".xb-about-img-wrap");
-  //   if (bgEl) bgEl.style.backgroundImage = `url(/images/bg/about-bg.png)`;
-  // }, []);
-
-  const aboutImages = ["/images/a1.webp", "/images/a2.webp", "/images/m1.webp"];
+  const aboutItems = [
+    { img: "/images/a1.webp", link: "/clover" },
+    { img: "/images/a2.webp", link: "/pax" },
+    { img: "/images/m1.webp", link: "/peripherals" },
+  ];
 
   return (
     <section className="about pt-140">
@@ -48,11 +35,11 @@ const AboutSection = () => {
       {/* ✅ One single marquee with all 3 images */}
       <div className="xb-about-img-wrap bg_img wow" style={{ backgroundImage: `url(/images/bg/about-bg.png)` }}>
         <Marquee speed={40} gradient={false} pauseOnHover={false}>
-          {aboutImages.map((img, idx) => (
+          {aboutItems.map((item, idx) => (
             <div key={idx} className="xb-about-img-item img-hove-effect">
               <div className="xb-img">
-                <Link href="/service-details">
-                  <img src={img} alt={`about-${idx + 1}`} />
+                <Link href={item.link}>
+                  <img src={item.img} alt={`about-${idx + 1}`} />
                 </Link>
               </div>
             </div>
