@@ -244,7 +244,7 @@ const Footer = () => {
                         {/* === Copyright === */}
                         <div className="xb-copyright ul_li_between">
                             <p>
-                                Copyright © 2025 <Link href="/ai-chatbot">Aivora</Link>, All rights reserved.
+                                Copyright © 2026 <Link href="/ai-chatbot">Pos Verge</Link>, All rights reserved.
                             </p>
                             <ul className="ai-footer-links ul_li">
                                 <li><Link href="/contact">Terms & Conditions</Link></li>

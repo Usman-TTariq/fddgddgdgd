@@ -11,7 +11,7 @@ const deviceData = {
     title: "NRS Cheetah POS",
     category: "NRS",
     price: "$399.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/nrs1.png",
     description: "High-performance POS system designed for speed and reliability in fast-paced retail environments.",
     features: [
         "Fast Processing — Lightning-fast transaction processing for quick checkout times.",

@@ -11,7 +11,7 @@ const deviceData = {
     title: "Clover Kiosk",
     category: "Clover",
     price: "$299.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/c4.png",
     description: "Self-service kiosk solution that allows customers to place orders and complete transactions independently.",
     features: [
         "Self-Service — Customers can place orders and pay without staff assistance.",

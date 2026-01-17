@@ -11,7 +11,7 @@ const deviceData = {
     title: "Clover Kitchen Display System",
     category: "Clover",
     price: "$199.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/c8.png",
     description: "Streamline kitchen operations with a dedicated display system that shows orders in real-time.",
     features: [
         "Real-Time Orders — Display incoming orders instantly as they're placed.",

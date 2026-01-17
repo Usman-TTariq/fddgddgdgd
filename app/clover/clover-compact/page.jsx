@@ -11,7 +11,7 @@ const deviceData = {
     title: "Clover Compact",
     category: "Clover",
     price: "$89.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/c5.png",
     description: "A space-efficient POS terminal that delivers powerful features in a compact design.",
     features: [
         "Space-Efficient — Compact design perfect for small counters and mobile setups.",

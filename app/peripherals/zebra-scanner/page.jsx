@@ -11,7 +11,7 @@ const deviceData = {
     title: "Zebra Scanner",
     category: "Peripherals",
     price: "$249.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/p6.png",
     description: "Enterprise-grade barcode scanner from Zebra Technologies, designed for high-performance scanning in demanding retail environments.",
     features: [
         "Enterprise Quality — Professional-grade scanner built for reliability and durability.",

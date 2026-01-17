@@ -11,7 +11,7 @@ const deviceData = {
     title: "Clover Flex Pocket",
     category: "Clover",
     price: "$65.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/c6.png",
     description: "Ultra-portable payment device that fits in your pocket, perfect for on-the-go transactions.",
     features: [
         "Pocket-Sized — Ultra-compact design that fits easily in your pocket.",

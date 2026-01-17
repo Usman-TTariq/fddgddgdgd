@@ -11,7 +11,7 @@ const deviceData = {
     title: "Printer Roll",
     category: "Peripherals",
     price: "$12.99",
-    image: "/images/retail-img-1.png",
+    image: "/images/p4.png",
     description: "High-quality thermal printer rolls compatible with various POS printers, ensuring reliable receipt and label printing.",
     features: [
         "Thermal Paper — High-quality thermal paper for clear, long-lasting prints.",

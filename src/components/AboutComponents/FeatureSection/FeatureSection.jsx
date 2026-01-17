@@ -55,7 +55,7 @@ const FeatureSection = () => {
               <div className="sec-title sec-title-center fea-sec-title mb-35">
                 <span className="sub-title mb-20">Why We are Better?</span>
                 <h2 className="title title-line_height">
-                  Why our services are better than others?
+                  Why our devices are better than others?
                 </h2>
               </div>
 

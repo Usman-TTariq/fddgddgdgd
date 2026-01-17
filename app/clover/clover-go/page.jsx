@@ -11,7 +11,7 @@ const deviceData = {
     title: "Clover Go",
     category: "Clover",
     price: "$59.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/c7.png",
     description: "The most portable Clover device, perfect for mobile businesses, delivery services, and pop-up shops.",
     features: [
         "Ultra Portable — Smallest Clover device for maximum mobility.",

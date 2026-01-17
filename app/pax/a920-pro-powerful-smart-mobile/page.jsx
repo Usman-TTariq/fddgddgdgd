@@ -11,7 +11,7 @@ const deviceData = {
     title: "A920 Pro Powerful Smart Mobile",
     category: "PAX",
     price: "$449.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/pax4.png",
     description: "Professional-grade mobile POS with enhanced power and features for demanding business environments.",
     features: [
         "Enhanced Performance — Powerful processor for faster operations and multitasking.",

@@ -57,7 +57,7 @@ const ContactSection= () => {
             <div className="xb-content-wrap">
               <div className="sec-title contact-sec-title">
                 <span className="sub-title mb-15">Our Achievements</span>
-                <h2 className="title horizontal-shape">
+                <h2 className="title horizontal-shape" style={{fontSize: "45px"}}>
                   We are trusted{" "}
                   <Image src="/images/icon/b10c3e43e836d32554bf.gif" alt="animated-shape" width={500} height={500} /> POS supplier!
                 </h2>

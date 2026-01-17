@@ -11,7 +11,7 @@ const deviceData = {
     title: "A77 Smart Mobile POS",
     category: "PAX",
     price: "$299.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/pax1.png",
     description: "Compact and powerful mobile POS terminal perfect for on-the-go transactions and flexible retail operations.",
     features: [
         "Mobile Design — Lightweight and portable for flexible payment processing.",

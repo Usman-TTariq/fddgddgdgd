@@ -11,7 +11,7 @@ const deviceData = {
     title: "A920 Elegant Smart Mobile",
     category: "PAX",
     price: "$349.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/pax3.png",
     description: "Elegant and stylish mobile POS device combining premium design with powerful functionality.",
     features: [
         "Elegant Design — Premium appearance that enhances your business image.",

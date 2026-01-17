@@ -11,7 +11,7 @@ const deviceData = {
     title: "Clover Flex",
     category: "Clover",
     price: "$75.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/c1.png",
     description: "Clover Flex is a handheld POS device with a built-in printer, perfect for businesses on the go.",
     features: [
         "Portable — Clover Flex is a handheld POS device with a built-in printer.",

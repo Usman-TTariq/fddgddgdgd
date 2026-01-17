@@ -11,7 +11,7 @@ const deviceData = {
     title: "E700 Smart EPOS",
     category: "PAX",
     price: "$499.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/pax5.png",
     description: "Comprehensive electronic point of sale system with advanced features for modern retail operations.",
     features: [
         "Full EPOS System — Complete point of sale solution with all essential features.",

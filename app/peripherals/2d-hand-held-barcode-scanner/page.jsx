@@ -11,7 +11,7 @@ const deviceData = {
     title: "2D Hand Held Barcode Scanner",
     category: "Peripherals",
     price: "$89.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/p1.png",
     description: "Advanced 2D barcode scanner with fast scanning capabilities, perfect for inventory management and checkout operations.",
     features: [
         "2D Scanning Technology — Read both 1D and 2D barcodes with precision and speed.",

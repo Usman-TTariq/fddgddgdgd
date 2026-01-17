@@ -11,7 +11,7 @@ const deviceData = {
     title: "NRS PETRO",
     category: "NRS",
     price: "$449.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/nrs2.png",
     description: "Specialized POS system designed for petroleum and gas station operations with industry-specific features.",
     features: [
         "Petroleum Specific — Tailored features for gas station and fuel retail operations.",

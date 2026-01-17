@@ -11,7 +11,7 @@ const deviceData = {
     title: "Weight Scale",
     category: "Peripherals",
     price: "$299.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/p5.png",
     description: "Precision digital weight scale with POS integration, perfect for retail stores, delis, and produce departments.",
     features: [
         "High Precision — Accurate weight measurements for accurate pricing and inventory.",

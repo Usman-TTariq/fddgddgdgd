@@ -11,7 +11,7 @@ const deviceData = {
     title: "Kitchen Printer",
     category: "Peripherals",
     price: "$149.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/p3.png",
     description: "Reliable kitchen printer designed for high-volume order printing in restaurant and food service environments.",
     features: [
         "High-Speed Printing — Rapid order printing to keep kitchen operations efficient.",

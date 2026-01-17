@@ -11,7 +11,7 @@ const deviceData = {
     title: "Clover Mini",
     category: "Clover",
     price: "$99.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/c2.png",
     description: "Compact and powerful, Clover Mini is perfect for small businesses looking for an all-in-one POS solution.",
     features: [
         "Compact Design — Perfect for limited counter space without compromising functionality.",

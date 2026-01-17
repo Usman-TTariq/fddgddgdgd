@@ -193,7 +193,7 @@ const Footer= () => {
 
           <div className="contact-item copyright-item">
             <p>
-              Copyright © 2025 <Link href="/">Aivora</Link>, All rights reserved.
+              Copyright © 2026 <Link href="/">Pos Verge</Link>, All rights reserved.
             </p>
           </div>
 

@@ -11,7 +11,7 @@ const deviceData = {
     title: "Epson Label Printer",
     category: "Peripherals",
     price: "$199.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/p2.png",
     description: "High-quality label printer from Epson, designed for printing professional labels, receipts, and tags with precision and reliability.",
     features: [
         "High-Quality Printing — Crisp, clear labels with professional-grade print quality.",

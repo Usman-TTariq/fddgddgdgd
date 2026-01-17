@@ -11,7 +11,7 @@ const deviceData = {
     title: "A8700 Dual-Facing Countertop",
     category: "PAX",
     price: "$399.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/pax2.png",
     description: "Advanced countertop POS terminal with dual-facing displays for both merchant and customer interaction.",
     features: [
         "Dual Display — Separate screens for merchant and customer for better interaction.",

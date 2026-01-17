@@ -11,7 +11,7 @@ const deviceData = {
     title: "Clover Solo Station",
     category: "Clover",
     price: "$149.00",
-    image: "/images/retail-img-1.png",
+    image: "/images/c3.png",
     description: "A complete POS station designed for high-volume businesses with advanced features and robust performance.",
     features: [
         "Full Station Setup — Complete POS terminal with cash drawer and receipt printer.",
