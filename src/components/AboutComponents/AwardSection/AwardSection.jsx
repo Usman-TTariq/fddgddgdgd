@@ -64,7 +64,7 @@ const AwardSection = () => {
                                 Trusted by Our Strategic Partners
                             </h2>
                             <p className="content">
-                                We are proud to collaborate with forward-thinking partners who share our passion for innovation and excellence. Together, we deliver cutting-edge AI solutions that drive measurable growth, create lasting value, and ensure exceptional outcomes for our clients. Our partnerships are built on trust, shared success, and a commitment to pushing the boundaries of what’s possible.
+                            We are trusted by forward-thinking strategic partners who rely on our expertise, integrity, and commitment to excellence. Through close collaboration, we deliver innovative solutions that drive measurable growth, create lasting value, and produce exceptional outcomes. Our partnerships are grounded in trust, shared success, and a mutual commitment to pushing the boundaries of what’s possible.
                             </p>
 
                             <div className="team-btn mt-40">
