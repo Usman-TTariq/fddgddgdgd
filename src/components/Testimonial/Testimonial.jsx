@@ -20,7 +20,7 @@ const testimonials = [
     source: "GoodFirms",
     rating: "5.0",
     content:
-      '“We saw a big boost in engagement and sales with their recommendation engine. It personalizes the shopping experience perfectly.”',
+      '“We got the Clover Compact from POSVerge, and honestly, it just made things easier. Billing is fast, staff picked it up in a day, and we don’t have to deal with messy counters anymore. It handles everything we need without slowing us down.”',
     name: "Riya Mehta",
     designation: "Manager - Trendico",
     avatar: "/images/t3.jpg",
@@ -30,7 +30,7 @@ const testimonials = [
     source: "Clutch",
     rating: "4.9",
     content:
-      '“Their NLP tool saves us hours by extracting key info from large documents instantly. It’s fast, accurate, and a huge time-saver.”',
+      '“POSVerge suggested a PAX POS for our store, and it’s been solid so far. Payments go through quickly, and it rarely gives us any trouble. Customers like the tap option, and we like how simple it is to use.”',
     name: "Miguel Torres",
     designation: "CEO & Funder - DocFlow",
     avatar: "/images/t2.jpg",
@@ -40,7 +40,7 @@ const testimonials = [
     source: "Clutch",
     rating: "5.0",
     content:
-      '“Their automation solutions saved us countless hours. Tasks that took days are now completed in minutes. The ROI was almost immediate.”',
+      '“We switched to Clover through POSVerge, and it was a smooth move. Sales tracking and reports are clear, and closing the day takes way less time now. It just works way better than what I expected it to.”',
     name: "Sebastian Clark",
     designation: "Manager - SwiftLogix",
     avatar: "/images/t1.jpg",
@@ -50,7 +50,7 @@ const testimonials = [
     source: "GoodFirms",
     rating: "5.0",
     content:
-      '“The AI chatbot they developed has transformed our customer service. We now handle 70% of queries with higher customer satisfaction!”',
+      '“Running a convenience store gets busy, and the NRS POS from POSVerge helps a lot. Inventory updates are automatic and checkout is faster. It’s one less thing to worry about during rush hours.”',
     name: "Priya Ramirez",
     designation: "CEO - BrightNest",
     avatar: "/images/t4.jpg",
@@ -60,7 +60,7 @@ const testimonials = [
     source: "Clutch",
     rating: "4.7",
     content:
-      '“We gained deep insights into customer behavior and performance. Their analytics made our decision-making sharper and more confident.”',
+      '“We bought our receipt printer and barcode scanner from POSVerge along with the POS. Everything connected easily and worked right away. No extra setup stress, which was a big relief.”',
     name: "Sebastian Clark",
     designation: "Director - Finexa Capital",
     avatar: "/images/t5.jpg",
@@ -70,14 +70,14 @@ const testimonials = [
     source: "Clutch",
     rating: "5.0",
     content:
-      '“Their automation solutions saved us countless hours. Tasks that took days are now completed in minutes. The ROI was almost immediate.”',
+      '“What I liked about POSVerge is that they didn’t push just one product. They helped us choose what fit our shop best. From the POS device we got to the scanner they suggested, everything runs smoothly now.”',
     name: "Sebastian Clark",
     designation: "Manager - SwiftLogix",
     avatar: "/images/t1.jpg",
   },
 ];
 
-const TestimonialSection= () => {
+const TestimonialSection = () => {
   // useEffect(() => {
   //   const bgEl = document.querySelector(".testimonial.bg_img");
   //   if (bgEl) bgEl.style.backgroundImage = `url(/images/bg/testimonial-bg.png)`;
